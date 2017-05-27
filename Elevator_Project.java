@@ -1,9 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
-import java.applet.*;
-import java.util.*;
-import java.io.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Elevator_Project extends JApplet
 {
@@ -39,6 +39,8 @@ public class Elevator_Project extends JApplet
 	JTextField rjtf = new JTextField(3);
 	JTextField gjtf = new JTextField(3);
 	JTextField bjtf = new JTextField(3);
+
+
 
 	public void init()
 	{
