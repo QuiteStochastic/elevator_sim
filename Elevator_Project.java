@@ -96,7 +96,7 @@ public class Elevator_Project extends JApplet
 	{
 		JPanel p = new JPanel(new FlowLayout(FlowLayout.LEFT));
 		
-		p.add(new JLabel("Manually Create a Passenger( "));
+		p.add(new JLabel("Manually Create a Passenger\t"));
 		
 		p.add(new JLabel("Starting Story[0, stories): "));
 		p.add(startjtf);
